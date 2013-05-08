@@ -1962,8 +1962,8 @@ h2 {
       background: #fadcd0; }
     .navbar .nav li:first-child a {
       border: none; }
-    .navbar .nav li.active a,
-    .navbar .nav li.active a:hover {
+    .navbar .nav li.active-trail a,
+    .navbar .nav li.active-trail a:hover {
       color: white;
       background-color: #e14f3c;
       -webkit-box-shadow: none;
