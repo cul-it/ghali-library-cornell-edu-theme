@@ -1910,7 +1910,7 @@ h2 {
   text-align: left;
   display: inline-block; }
 
-.main-content p {
+.main-content p, .main-content li, .main-content td {
   font-size: 1.125em;
   line-height: 1.4em; }
 
