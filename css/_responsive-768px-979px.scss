@@ -1,0 +1,50 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+@media (min-width: 768px) and (max-width: 979px) {
+	body { font-size: 90%; }
+	.navbar {
+		.container { width: 724px; }
+		.brand { 
+			font-size: 1.625em;
+			margin-bottom: 0; }
+		.subtitle { 
+			font-size: 1em;
+			margin-left: 65px; }
+		.nav {
+			li {
+				a { padding: 5px; }
+			}
+		}
+		// override bootstrap nav collapse at this size
+		.btn-navbar { display: none; }
+		// .nav {
+		// 	li {
+		// 		a { 
+		// 			font-size: 1em;
+		// 			padding: 5px }
+		// 	}
+		// }
+	}
+	// override bootstrap nav collapse at this size
+	.nav-collapse, 
+	.nav-collapse.collapse { overflow: visible; }
+	.nav-collapse {
+		.nav > li { 
+			float: left;
+			font-size: 90%; }
+		.nav > li > a { 
+			font-weight: normal;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0; }
+	}
+	.intro-text {
+		.primary-button {
+			text-align: center;
+			a { 
+				line-height: 1.5em; }
+		}
+	}
+}

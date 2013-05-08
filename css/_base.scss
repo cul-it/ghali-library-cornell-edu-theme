@@ -1,0 +1,63 @@
+body {
+	font-size: 100%;
+	font-family: $baseFontFamily;
+	font-weight: 400;
+	color: $textColorDark;
+	background: url("../images/footer-bg.png");
+}
+
+/* Links */
+/*------------------------------*/
+a { color: $brightGreen;}
+a:visited {}
+a:hover { text-decoration: none;
+	color: $superDarkGreen;
+}
+a:active { }
+
+
+/* Typography */
+/*------------------------------*/
+
+h2 {
+	color: white;
+	background: $orange;
+	padding: 5px 20px ;
+	font-size: 1.625em;
+	font-weight: 200;
+	margin-bottom: 1em;
+	text-align: left;
+	display: inline-block; }
+
+.main-content {
+	p { 
+		font-size: 1.125em;
+		line-height: 1.4em; }
+}
+
+/* Images */
+/*------------------------------*/
+
+// img {
+// 	padding: 5px;
+// 	background: $brightGreen;
+// }
+
+/* Miscellaneous */
+/*------------------------------*/
+
+.primary-button {
+	a { 
+		display: inline-block;
+		padding: 10px 20px;
+		margin-bottom: 15px;
+		background: $green;
+		color: white; }
+	a:hover { background: $brightGreen; }
+}
+.image-copyright {
+	text-align: right;
+	margin-top: 200px;
+	color: $paleGreen;
+	font-size: 75%;
+}
