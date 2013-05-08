@@ -2038,6 +2038,18 @@ footer {
   footer p {
     font-size: .875em; }
 
+/* Unpublished papers */
+/*------------------------------*/
+.paper {
+  margin: 0 0 1em; }
+
+.paper-title {
+  font-weight: bold;
+  font-size: 1.25em; }
+
+.paper-abstract {
+  font-size: 1.125em; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
     font-size: 90%; }
