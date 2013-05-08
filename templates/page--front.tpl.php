@@ -158,10 +158,4 @@
   </div>
 </footer>
 
-<footer>
-  <div class="container">
-    <?php print render($page['footer']); ?>
-  </div>
-</footer>
-
 <?php print render($page['bottom']); ?>

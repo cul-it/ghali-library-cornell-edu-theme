@@ -75,7 +75,7 @@
     <div class="row">
       <div class="span6">
         <div class="cu-logo">
-          <img src="/sites/all/themes/bootstrap_racker/images/cul-logo-gray.gif">
+          <img src="img/cul-logo-gray.gif">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
@@ -83,53 +83,47 @@
           </div>
         </div>
       </div>
-      <div class="span6 search-box">
-        <form class="form-search">
-          <input type="text" class="input-medium search-query" placeholder="Search">
-          <!-- <button type="submit" class="btn">Search</button> -->
-        </form>
+      <div class="span6 search-links hidden-phone">
+        <ul>
+          <li><a href="http://www.library.cornell.edu/accessiblesearch/">Search Library</a></li>
+          <li><a href="http://www.cornell.edu/search/">Search Cornell</a></li>
+        </ul>
       </div>
     </div> <!-- /row -->
   </div> <!-- /container -->
 </section>
 
-<nav class="navbar">
+<header>
   <div class="container">
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </a>
-    <div class="row">
-      <div class="span4">
-        <?php if ($site_name): ?>
-          <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
-        <?php endif; ?>
-        <?php if ($site_slogan): ?>
-          <div class="subtitle"><?php print $site_name; ?></div>
-        <?php endif; ?>
-      </div>
-      <div class="span8 main-navigation">
-        <div class="nav-collapse collapse">
-          <div class="nav">
-            <?php print render($page['navigation']); ?>
+    <div class="navbar">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="row">
+        <div class="span6">
+          <?php if ($site_name): ?>
+            <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
+          <?php endif; ?>
+          <?php if ($site_slogan): ?>
+            <div class="subtitle"><?php print $site_slogan; ?></div>
+          <?php endif; ?>
+        </div>
+        <div class="span6">
+          <div class="nav-collapse collapse">
+            <div class="nav">
+              <?php print render($page['navigation']); ?>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</nav>
-
-<header>
-  <div class="container">
-    <img src="/sites/all/themes/bootstrap_racker/images/header-about.jpg" alt="">
-    <p class="caption">Caption goes here</p>
-  </div>
 </header>
 
 <section class="main-content">
   <div class="container">
-
     <?php
         // Render the sidebars to see if there's anything in them.
         $sidebar_first  = render($page['sidebar_first']);
@@ -138,57 +132,65 @@
 
     <!--if there is a sidebar, then create two column layout-->
     <?php if ($sidebar_first || $sidebar_second): ?>
-      <div class="row">
-        <div class="span8">
-          <?php print render($page['highlighted']); ?>
-          <!--<?php print $breadcrumb; ?>-->
-          <?php print $messages; ?>
-          <?php print render($tabs); ?>
-          <?php print render($page['help']); ?>
-          <?php if ($action_links): ?>
-            <ul class="action-links"><?php print render($action_links); ?></ul>
-          <?php endif; ?>
-          <!--<?php if(drupal_is_front_page()) {
-            unset($page['content']['system_main']['default_message']);
-          }?>-->
-          <?php if ($title): ?>
-            <h2><?php print $title; ?></h2>
-          <?php endif; ?>
-          <?php print render($page['content']); ?>
-        </div>
-        <div class="span4 sidebar">
-          <?php print $sidebar_first; ?>
-          <?php print $sidebar_second; ?>
-        </div>
+
+    <div class="row">
+      <div class="span8">
+        <?php print render($page['highlighted']); ?>
+        <!--<?php print $breadcrumb; ?>-->
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <!--<?php if(drupal_is_front_page()) {
+          unset($page['content']['system_main']['default_message']);
+        }?>-->
+        <?php if ($title): ?>
+          <h2><?php print $title; ?></h2>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+      </div>
+      <div class="span4">
+        <?php print $sidebar_first; ?>
+        <?php print $sidebar_second; ?>
       </div>
 
       <!--if there isn't a sidebar, then create one column layout-->
-    <?php else :?>
+      <?php else :?>
 
-      <?php print render($page['highlighted']); ?>
-      <!--<?php print $breadcrumb; ?>-->
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php print render($page['highlighted']); ?>
+        <!--<?php print $breadcrumb; ?>-->
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <!--<?php if(drupal_is_front_page()) {
+          unset($page['content']['system_main']['default_message']);
+        }?>-->
+        <?php if ($title): ?>
+          <h2><?php print $title; ?></h2>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+
       <?php endif; ?>
-      <!--<?php if(drupal_is_front_page()) {
-        unset($page['content']['system_main']['default_message']);
-      }?>-->
-      <?php if ($title): ?>
-        <h2><?php print $title; ?></h2>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
 
-    <?php endif; ?>
-
-  </div><!-- /container -->
-</section>  
+    </div>
+  </div>
+</section>
 
 <footer>
   <div class="container">
-    <?php print render($page['footer']); ?>
+    <div class="row">
+      <div class="span8">
+        <?php print render($page['footer_first']); ?>
+      </div>
+      <div class="span4 text-right">
+        <?php print render($page['footer_second']); ?>
+      </div>
+    </div>
   </div>
 </footer>
 
