@@ -53,7 +53,12 @@ footer {
 			display: inline-block;
 			font-size: .875em;
 			border-left: 1px solid $brightGreen;
-			padding: 0 5px 0 10px; }
+			padding: 0 5px 0 10px;
+			a { color: #ccd0d0; }
+			a:hover { 
+				background: inherit;
+				color: white; }
+		}
 		li:first-child { 
 			border-left: none;
 			padding-left: 0; }
@@ -63,8 +68,6 @@ footer {
 			.divider { color: white; }
 		}
 	}
-	a { color: #ccd0d0; }
-	a:hover { color: white; }
 	p { font-size: .875em; }
 }
 
