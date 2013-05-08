@@ -2030,11 +2030,11 @@ footer {
     footer ul.nav li:first-child {
       border-left: none;
       padding-left: 0; }
-    footer ul.nav li.active {
+    footer ul.nav li.active-trail {
       color: white; }
-      footer ul.nav li.active a {
+      footer ul.nav li.active-trail a {
         color: white; }
-      footer ul.nav li.active .divider {
+      footer ul.nav li.active-trail .divider {
         color: white; }
   footer p {
     font-size: .875em; }
