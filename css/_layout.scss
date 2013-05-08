@@ -69,7 +69,11 @@ footer {
 		}
 	}
 	p { font-size: .875em; }
-}
+	a { color: #ccd0d0; }
+	a:hover { 
+		background: inherit;
+		color: white; }
+	}
 
 /* Unpublished papers */
 /*------------------------------*/

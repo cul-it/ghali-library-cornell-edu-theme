@@ -2038,6 +2038,11 @@ footer {
         color: white; }
   footer p {
     font-size: .875em; }
+  footer a {
+    color: #ccd0d0; }
+  footer a:hover {
+    background: inherit;
+    color: white; }
 
 /* Unpublished papers */
 /*------------------------------*/
