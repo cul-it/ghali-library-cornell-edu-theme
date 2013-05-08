@@ -151,8 +151,7 @@
         <?php print render($page['content']); ?>
       </div>
       <div class="span4">
-        <?php print $sidebar_first; ?>
-        <?php print $sidebar_second; ?>
+        <?php print $sidebar; ?>
       </div>
 
       <!--if there isn't a sidebar, then create one column layout-->
