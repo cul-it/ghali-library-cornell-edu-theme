@@ -1906,7 +1906,7 @@ h2 {
   padding: 5px 20px;
   font-size: 1.625em;
   font-weight: 200;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   text-align: left;
   display: inline-block; }
 
@@ -2050,7 +2050,7 @@ footer {
   margin: 0 0 1.5em; }
 
 .paper-title {
-  font-size: 1.25em;
+  font-size: 1.4em;
   margin-bottom: .25em; }
 
 .paper-abstract {
