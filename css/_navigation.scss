@@ -25,7 +25,8 @@
 				padding: 5px 10px;
 				border-left: 1px solid $paleGreen; }
 			a:hover { 
-				background: $paleOrange; }
+				background: $paleOrange;
+				border-color: $paleOrange; }
 		}
 		li:first-child {
 			a { border: none; }
@@ -37,7 +38,8 @@
 				background-color: $orange;
 				-webkit-box-shadow: none;
 				-moz-box-shadow: none;
-				box-shadow: none; }
+				box-shadow: none;
+				border-color: $orange; }
 		}
 	}
 }
