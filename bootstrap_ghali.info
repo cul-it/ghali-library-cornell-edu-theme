@@ -18,3 +18,4 @@ stylesheets[all][] = css/style.css
 
 ; Scripts
 scripts[] = js/respond.min.js
+scripts[] = js/bootstrap.min.js
