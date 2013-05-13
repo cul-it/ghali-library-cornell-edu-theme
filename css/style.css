@@ -2192,4 +2192,7 @@ footer {
     margin-top: 30px; }
 
   footer .text-right {
-    text-align: left; } }
+    text-align: left; }
+
+  .view-id-literary_influences table {
+    width: 100%; } }
