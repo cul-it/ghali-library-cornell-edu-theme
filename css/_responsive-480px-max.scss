@@ -3,6 +3,10 @@
 // --------------------------------------------------
 
 @media (max-width: 480px) {
+	.hero { 
+		background: $superDarkGreen;
+		.container { background: url("../images/ghali-bg.jpg") no-repeat top left; }
+	}
 	.navbar {
 		padding-top: 0;
 		.brand { 
