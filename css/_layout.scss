@@ -90,3 +90,17 @@ footer {
 .paper-date {
 	color: $textColorLight;
 	margin-bottom: .5em; }
+
+/* Literary influences */
+/*------------------------------*/
+
+.view-id-literary_influences {
+	table { 
+		width: 80%;
+		margin: 20px auto; }
+}
+.views-field-field-author-last-name { text-align: right; }
+.influence-title { font-size: 1.25em; }
+.influence-author { font-size: 0.875em; }
+
+

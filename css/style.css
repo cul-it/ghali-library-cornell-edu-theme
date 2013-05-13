@@ -2067,6 +2067,21 @@ footer {
   color: #999999;
   margin-bottom: .5em; }
 
+/* Literary influences */
+/*------------------------------*/
+.view-id-literary_influences table {
+  width: 80%;
+  margin: 20px auto; }
+
+.views-field-field-author-last-name {
+  text-align: right; }
+
+.influence-title {
+  font-size: 1.25em; }
+
+.influence-author {
+  font-size: .875em; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
     font-size: 90%; }
