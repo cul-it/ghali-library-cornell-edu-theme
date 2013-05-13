@@ -61,6 +61,8 @@ h2 {
 	color: $paleGreen;
 	font-size: 75%;
 }
-.caption {
-	color: $textColorLight;
+.main-content {
+	p.caption {
+		color: $textColorLight;
+		font-size: 0.875em; }
 }

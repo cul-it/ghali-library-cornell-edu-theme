@@ -1933,8 +1933,9 @@ h2 {
   color: #e7eff0;
   font-size: 75%; }
 
-.caption {
-  color: #999999; }
+.main-content p.caption {
+  color: #999999;
+  font-size: 0.875em; }
 
 .navbar {
   padding: 30px 0;
