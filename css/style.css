@@ -2182,7 +2182,7 @@ footer {
       clear: both;
       line-height: 1em; }
     .navbar .subtitle {
-      font-size: 1em;
+      line-height: 1.2em;
       margin-left: 0; }
     .navbar .btn-navbar {
       margin-top: 10px;
