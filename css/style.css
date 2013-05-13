@@ -1933,6 +1933,9 @@ h2 {
   color: #e7eff0;
   font-size: 75%; }
 
+.caption {
+  color: #999999; }
+
 .navbar {
   padding: 30px 0;
   margin-bottom: 0; }
