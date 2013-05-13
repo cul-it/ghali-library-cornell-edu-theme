@@ -2013,6 +2013,9 @@ header {
 
 /* Sidebar on sub pages */
 /*------------------------------*/
+.sidebar img {
+  text-align: center; }
+
 /* Footer */
 /*------------------------------*/
 footer {

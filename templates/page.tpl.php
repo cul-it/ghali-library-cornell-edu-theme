@@ -150,7 +150,7 @@
         <?php endif; ?>
         <?php print render($page['content']); ?>
       </div>
-      <div class="span4">
+      <div class="span4 sidebar">
         <?php print $sidebar; ?>
       </div>
 
