@@ -2072,6 +2072,8 @@ footer {
 .view-id-literary_influences table {
   width: 80%;
   margin: 20px auto; }
+.view-id-literary_influences td {
+  width: 50%; }
 .view-id-literary_influences .views-field-field-author-last-name {
   text-align: right; }
 
