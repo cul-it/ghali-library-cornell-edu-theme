@@ -2178,9 +2178,9 @@ footer {
   .navbar {
     padding-top: 0; }
     .navbar .brand {
-      font-size: 1.625em;
       margin-bottom: 0;
-      clear: both; }
+      clear: both;
+      line-height: 1em; }
     .navbar .subtitle {
       font-size: 1em;
       margin-left: 0; }
