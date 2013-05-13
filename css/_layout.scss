@@ -81,12 +81,12 @@ footer {
 /*------------------------------*/
 
 .paper {
-	margin: 0 0 1.5em;
-}
+	margin: 0 0 1.5em; }
 .paper-title {
 	font-size: 1.4em;
-	margin-bottom: .25em;
-}
+	margin-bottom: .25em; }
 .paper-abstract {
-	font-size: 1em;
-}
+	font-size: 1em; }
+.paper-date {
+	color: $textColorLight;
+	margin-bottom: .5em; }

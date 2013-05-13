@@ -2063,6 +2063,10 @@ footer {
 .paper-abstract {
   font-size: 1em; }
 
+.paper-date {
+  color: #999999;
+  margin-bottom: .5em; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
     font-size: 90%; }
