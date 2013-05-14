@@ -103,12 +103,7 @@
       </a>
       <div class="row">
         <div class="span6">
-          <?php if ($site_name): ?>
-            <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
-          <?php endif; ?>
-          <?php if ($site_slogan): ?>
-            <div class="subtitle"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
+          <a class="brand" href="<?php print $front_page; ?>">Selections from the <span class="site-title">Cornell Anthropology Collections</span></a>
         </div>
         <div class="span6">
           <div class="nav-collapse collapse">
@@ -124,9 +119,8 @@
 
 <section class="hero">
   <div class="container">
-    <div class="span5 pull-right">
+    <div class="span10 offset1">
       <div class="intro-text">
-
         <?php print render($page['highlighted']); ?>
         <!--<?php print $breadcrumb; ?>-->
         <?php print $messages; ?>
@@ -139,7 +133,6 @@
           unset($page['content']['system_main']['default_message']);
         }?>
         <?php print render($page['content']); ?>
-
       </div>
     </div>
   </div>

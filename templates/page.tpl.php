@@ -103,12 +103,7 @@
       </a>
       <div class="row">
         <div class="span6">
-          <?php if ($site_name): ?>
-            <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
-          <?php endif; ?>
-          <?php if ($site_slogan): ?>
-            <div class="subtitle"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
+          <a class="brand" href="<?php print $front_page; ?>">Selections from the <span class="site-title">Cornell Anthropology Collections</span></a>
         </div>
         <div class="span6">
           <div class="nav-collapse collapse">
@@ -133,6 +128,9 @@
     <?php if ($sidebar): ?>
 
     <div class="row">
+      <div class="span4 sidebar">
+        <?php print $sidebar; ?>
+      </div>
       <div class="span8">
         <?php print render($page['highlighted']); ?>
         <!--<?php print $breadcrumb; ?>-->
@@ -149,9 +147,6 @@
           <h2><?php print $title; ?></h2>
         <?php endif; ?>
         <?php print render($page['content']); ?>
-      </div>
-      <div class="span4 sidebar">
-        <?php print $sidebar; ?>
       </div>
 
       <!--if there isn't a sidebar, then create one column layout-->
