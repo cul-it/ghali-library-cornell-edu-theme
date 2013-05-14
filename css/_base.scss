@@ -3,21 +3,30 @@ body {
 	font-family: $baseFontFamily;
 	font-weight: 400;
 	color: $textColorDark;
-	background: url("../images/footer-bg.png");
+	background: $darkBrown;
 }
 
 /* Links */
 /*------------------------------*/
-a { color: $brightGreen;}
+a { color: $teal; }
 a:visited {}
-a:hover { text-decoration: none;
-	color: $superDarkGreen;
-}
-a:active { }
+a:hover { 
+	text-decoration: underline;
+	color: $darkTeal; }
+a:active { color: $darkTeal; }
 
 
 /* Typography */
 /*------------------------------*/
+
+h1 {
+	color: white;
+	background: $teal;
+	padding: 10px 20px;
+	margin: 0 0 1.5em;
+	display: inline-block;
+	font-weight: 300;
+	font-size: 1.875em; }
 
 h2 {
 	color: white;
@@ -25,12 +34,12 @@ h2 {
 	padding: 5px 20px ;
 	font-size: 1.625em;
 	font-weight: 200;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	text-align: left;
 	display: inline-block; }
 
 .main-content {
-	p, li, td { 
+	p { 
 		font-size: 1.125em;
 		line-height: 1.4em; }
 }
@@ -43,18 +52,5 @@ h2 {
 		display: inline-block;
 		padding: 10px 20px;
 		margin-bottom: 15px;
-		background: $green;
 		color: white; }
-	a:hover { background: $brightGreen; }
-}
-.image-copyright {
-	text-align: right;
-	margin-top: 200px;
-	color: $paleGreen;
-	font-size: 75%;
-}
-.main-content {
-	p.caption {
-		color: $textColorLight;
-		font-size: 0.875em; }
 }

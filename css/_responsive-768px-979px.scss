@@ -7,25 +7,17 @@
 	.navbar {
 		.container { width: 724px; }
 		.brand { 
-			font-size: 1.625em;
-			margin-bottom: 0; }
-		.subtitle { 
-			font-size: 1em;
-			margin-left: 65px; }
+			margin-bottom: 0;
+			.site-title { font-size: 1.3em; }
+		}
 		.nav {
+			margin-top: 30px;
 			li {
 				a { padding: 5px; }
 			}
 		}
 		// override bootstrap nav collapse at this size
 		.btn-navbar { display: none; }
-		// .nav {
-		// 	li {
-		// 		a { 
-		// 			font-size: 1em;
-		// 			padding: 5px }
-		// 	}
-		// }
 	}
 	// override bootstrap nav collapse at this size
 	.nav-collapse, 
@@ -46,5 +38,10 @@
 			a { 
 				line-height: 1.5em; }
 		}
+	}
+	#supersized { height: 1000px !important ; }
+	h1 { line-height: 1.2em; }
+	.sidebar-nav {
+		a { padding: 10px; }
 	}
 }

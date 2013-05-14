@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 /*
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
@@ -1884,33 +1884,45 @@ ul.icons {
 
 body {
   font-size: 100%;
-  font-family: "PT Sans";
+  font-family: "Open Sans";
   font-weight: 400;
   color: #444444;
-  background: url("../images/footer-bg.png"); }
+  background: #301a10; }
 
 /* Links */
 /*------------------------------*/
 a {
-  color: #25898c; }
+  color: #15a383; }
 
 a:hover {
-  text-decoration: none;
-  color: #082324; }
+  text-decoration: underline;
+  color: #15594a; }
+
+a:active {
+  color: #15594a; }
 
 /* Typography */
 /*------------------------------*/
+h1 {
+  color: white;
+  background: #15a383;
+  padding: 10px 20px;
+  margin: 0 0 1.5em;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1.875em; }
+
 h2 {
   color: white;
   background: #e14f3c;
   padding: 5px 20px;
   font-size: 1.625em;
   font-weight: 200;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   text-align: left;
   display: inline-block; }
 
-.main-content p, .main-content li, .main-content td {
+.main-content p {
   font-size: 1.125em;
   line-height: 1.4em; }
 
@@ -1920,81 +1932,98 @@ h2 {
   display: inline-block;
   padding: 10px 20px;
   margin-bottom: 15px;
-  background: #1a5e60;
   color: white; }
-.primary-button a:hover {
-  background: #25898c; }
 
-.image-copyright {
-  text-align: right;
-  margin-top: 200px;
-  color: #e7eff0;
-  font-size: 75%; }
-
-.main-content p.caption {
-  color: #999999;
-  font-size: 0.875em; }
-
+/* Site branding and top navigation */
+/*----------------------------------*/
 .navbar {
-  padding: 30px 0;
+  padding: 20px 0;
   margin-bottom: 0; }
   .navbar .container {
     width: 1170px; }
   .navbar .brand {
     float: none;
-    font-size: 2.25em;
-    color: #e14f3c;
-    font-weight: bold;
-    margin-bottom: 5px; }
-  .navbar .subtitle {
-    color: #697777;
-    font-size: 1.25em;
-    font-style: italic;
-    margin: 0 0 0 145px; }
+    font-size: 1.125em;
+    color: #932129;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-shadow: 0; }
+    .navbar .brand .site-title {
+      font-size: 1.875em;
+      display: block;
+      margin-top: .25em; }
   .navbar .nav {
     float: right;
-    margin-top: 3px; }
+    margin-top: 35px; }
     .navbar .nav li a {
       text-shadow: 0 0 0;
-      color: #1a5e60;
+      color: #62646f;
       font-size: 1em;
       padding: 5px 10px;
-      border-left: 1px solid #e7eff0; }
+      border-left: 1px solid #cfcfcf; }
     .navbar .nav li a:hover {
-      background: #fadcd0;
-      border-color: #fadcd0; }
+      color: #932129; }
     .navbar .nav li:first-child a {
       border: none; }
-    .navbar .nav li.active-trail a,
-    .navbar .nav li.active-trail a:hover {
-      color: white;
-      background-color: #e14f3c;
+    .navbar .nav li.active a,
+    .navbar .nav li.active a:hover {
+      color: #15a383;
+      background: inherit;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
-      box-shadow: none;
-      border-color: #e14f3c; }
+      box-shadow: none; }
+
+/* Sidebar navigation */
+/*------------------------------*/
+.sidebar-nav {
+  list-style: none;
+  margin-left: 0; }
+  .sidebar-nav li {
+    margin-bottom: .25em; }
+  .sidebar-nav a {
+    display: inline-block;
+    background: #efebeb;
+    color: #666;
+    padding: 15px 25px 15px 15px; }
+  .sidebar-nav a:hover {
+    background: #cfcfcf;
+    text-decoration: none; }
+  .sidebar-nav li.active a,
+  .sidebar-nav li.active a:hover {
+    color: white;
+    background: #15594a; }
 
 /* Hero */
 /*------------------------------*/
-.hero {
-  background: #082324; }
-  .hero .container {
-    background: url("../images/ghali-bg.jpg") no-repeat top; }
+.hero h1 {
+  margin: -40px 0 40px -60px;
+  padding: 20px 40px;
+  background: #932129; }
 
 .intro-text {
+  background: #4e2a1a;
+  opacity: .95;
   color: white;
-  margin: 80px 40px 0 0;
-  font-size: 1.25em;
+  margin: 100px 0;
+  padding: 0 80px 50px 80px;
+  font-size: 1.125em;
   line-height: 1.5em; }
   .intro-text .primary-button {
-    text-align: right;
-    margin-top: 20px; }
+    margin-top: 20px;
+    text-align: center; }
     .intro-text .primary-button a {
-      font-size: 90%; }
-    .intro-text .primary-button a.browse-works {
-      background: #e14f3c; }
-    .intro-text .primary-button a.browse-works:hover {
-      background: #f96552; }
+      font-size: 110%;
+      font-weight: 300; }
+    .intro-text .primary-button a.browse {
+      background: #932129; }
+    .intro-text .primary-button a.browse:hover {
+      background: #ba2d37;
+      text-decoration: none; }
+    .intro-text .primary-button a.learn-more {
+      background: #15594a; }
+    .intro-text .primary-button a.learn-more:hover {
+      background: #15a383;
+      text-decoration: none; }
 
 /* Header */
 /*------------------------------*/
@@ -2004,97 +2033,54 @@ header {
 /* Main content on sub pages */
 /*------------------------------*/
 .main-content {
-  background: white; }
+  background: white url("../images/background/2-crop.jpg") no-repeat top left;
+  background-position: center 0; }
   .main-content .container {
-    border-top: 5px solid #e7eff0;
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 60px; }
 
 /* Sidebar on sub pages */
 /*------------------------------*/
-.sidebar #block-block-5 {
-  text-align: center; }
-
 /* Footer */
 /*------------------------------*/
 footer {
-  color: #25898c; }
+  color: #625d5a; }
   footer .container {
     padding: 30px 0; }
-  footer ul.nav {
+  footer ul.footer-nav {
     list-style: none;
     margin: 0 0 1em; }
-    footer ul.nav li {
+    footer ul.footer-nav li {
       display: inline-block;
       font-size: .875em;
-      border-left: 1px solid #25898c;
+      border-left: 1px solid #625d5a;
       padding: 0 5px 0 10px; }
-      footer ul.nav li a {
-        color: #ccd0d0; }
-      footer ul.nav li a:hover {
-        background: inherit;
-        color: white; }
-    footer ul.nav li:first-child {
+    footer ul.footer-nav li:first-child {
       border-left: none;
       padding-left: 0; }
-    footer ul.nav li.active-trail {
+    footer ul.footer-nav li.active {
       color: white; }
-      footer ul.nav li.active-trail a {
+      footer ul.footer-nav li.active a {
         color: white; }
-      footer ul.nav li.active-trail .divider {
+      footer ul.footer-nav li.active .divider {
         color: white; }
+  footer a {
+    color: #948c88; }
+  footer a:hover {
+    color: white; }
   footer p {
     font-size: .875em; }
-  footer a {
-    color: #ccd0d0; }
-  footer a:hover {
-    background: inherit;
-    color: white; }
-
-/* Unpublished papers */
-/*------------------------------*/
-.paper {
-  margin: 0 0 1.5em; }
-
-.paper-title {
-  font-size: 1.4em;
-  margin-bottom: .25em; }
-
-.paper-abstract {
-  font-size: 1em; }
-
-.paper-date {
-  color: #999999;
-  margin-bottom: .5em; }
-
-/* Literary influences */
-/*------------------------------*/
-.view-id-literary_influences table {
-  width: 80%;
-  margin: 20px auto; }
-.view-id-literary_influences td {
-  width: 50%; }
-.view-id-literary_influences .views-field-field-author-last-name {
-  text-align: right; }
-
-.influence-title {
-  font-size: 1.25em; }
-
-.influence-author {
-  font-size: 0.875em; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
-  body {
-    font-size: 90%; }
-
   .navbar .container {
     width: 940px; }
-  .navbar .brand {
-    font-size: 2em; }
-  .navbar .subtitle {
-    margin-left: 75px; }
-  .navbar .nav li a {
-    padding: 5px; } }
+  .navbar .nav {
+    margin-top: 33px; }
+  .navbar .brand .site-title {
+    font-size: 1.5em; }
+
+  #supersized {
+    height: 950px !important; } }
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     font-size: 90%; }
@@ -2102,13 +2088,13 @@ footer {
   .navbar .container {
     width: 724px; }
   .navbar .brand {
-    font-size: 1.625em;
     margin-bottom: 0; }
-  .navbar .subtitle {
-    font-size: 1em;
-    margin-left: 65px; }
-  .navbar .nav li a {
-    padding: 5px; }
+    .navbar .brand .site-title {
+      font-size: 1.3em; }
+  .navbar .nav {
+    margin-top: 30px; }
+    .navbar .nav li a {
+      padding: 5px; }
   .navbar .btn-navbar {
     display: none; }
 
@@ -2128,7 +2114,16 @@ footer {
   .intro-text .primary-button {
     text-align: center; }
     .intro-text .primary-button a {
-      line-height: 1.5em; } }
+      line-height: 1.5em; }
+
+  #supersized {
+    height: 1000px !important; }
+
+  h1 {
+    line-height: 1.2em; }
+
+  .sidebar-nav a {
+    padding: 10px; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
@@ -2141,10 +2136,10 @@ footer {
       width: auto;
       padding: 0 10px; }
     .navbar .btn-navbar {
-      background: #25898c;
+      background: #15a383;
       margin-top: 30px; }
     .navbar .btn-navbar:hover {
-      background: #25898c; }
+      background: #15a383; }
     .navbar .nav {
       float: none;
       padding: 5px 0; }
@@ -2155,12 +2150,16 @@ footer {
       .navbar .nav li a {
         color: white;
         font-weight: normal; }
+      .navbar .nav li.active a,
+      .navbar .nav li.active a:hover {
+        background: #15594a;
+        color: white; }
 
   .container {
     padding: 0 10px; }
 
   .nav-collapse {
-    background: #25898c;
+    background: #15a383;
     margin-top: 10px; }
     .nav-collapse .nav > li > a:hover {
       font-weight: normal;
@@ -2173,29 +2172,39 @@ footer {
       margin-bottom: 0; }
 
   footer .container {
-    padding: 20px 10px; } }
+    padding: 20px 10px; }
+
+  .sidebar-nav {
+    margin-bottom: 1em;
+    overflow: hidden; }
+    .sidebar-nav li {
+      float: left;
+      margin-right: .25em; }
+    .sidebar-nav a {
+      padding: 10px; } }
 @media (max-width: 480px) {
   .navbar {
     padding-top: 0; }
     .navbar .brand {
       margin-bottom: 0;
-      clear: both;
-      line-height: 1em; }
-    .navbar .subtitle {
-      line-height: 1.2em;
-      margin-left: 0; }
+      clear: both; }
+      .navbar .brand .site-title {
+        font-size: 1.5em; }
     .navbar .btn-navbar {
       margin-top: 10px;
       display: inline-block; }
 
-  .image-copyright {
-    margin-top: 30px; }
-
   footer .text-right {
     text-align: left; }
 
-  .view-id-literary_influences table {
-    width: 100%; }
+  #supersized {
+    display: none !important; }
 
-  .view-id-unpublished_papers .text-right {
-    text-align: left; } }
+  .intro-text {
+    margin: 60px 0;
+    padding: 0 40px; }
+    .intro-text h1 {
+      font-size: 1.5em;
+      line-height: 1.2em;
+      padding: 20px;
+      margin-left: -20px; } }

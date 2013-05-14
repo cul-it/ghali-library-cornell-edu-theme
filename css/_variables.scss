@@ -9,6 +9,23 @@ $cornell-font: verdana, sans-serif;
 // Colors
 // -------------------------
 
+$red: #932129;
+$mainNavColor: #62646f;
+
+$brown: #4e2a1a;
+$darkBrown: #301a10;
+
+$teal: #15a383;
+$darkTeal: #15594a;
+
+$lightGray: #cfcfcf;
+$paleGray: #efebeb;
+
+$footerText: #625d5a;
+$footerLink: #948c88;
+
+
+//OLD STUFF TO DELETE
 $orange: #e14f3c;
 $darkOrange: #b53e2f;
 $brightOrange: #f96552;
@@ -24,7 +41,6 @@ $superDarkGreen: #082324;
 
 
 $textColorDark: #444;
-$textColorLight: #999;
 
 $linkPrimary: #38818d;
 $linkPrimaryHover: #113e3f;
@@ -32,6 +48,6 @@ $linkPrimaryHover: #113e3f;
 
 // Fonts
 // -------------------------
-$baseFontFamily:        'PT Sans';        @import
-url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+$baseFontFamily:        'Open Sans';        @import
+url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 
