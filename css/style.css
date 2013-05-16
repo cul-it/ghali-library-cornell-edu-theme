@@ -2071,6 +2071,34 @@ footer {
   footer p {
     font-size: .875em; }
 
+/* Unpublished papers */
+/*------------------------------*/
+.paper {
+  margin: 0 0 1.5em; }
+
+.paper-title {
+  font-size: 1.4em;
+  margin-bottom: .25em; }
+
+.paper-abstract {
+  font-size: 1em; }
+
+.paper-date {
+  color: #999999;
+  margin-bottom: .5em; }
+
+/* Literary influences */
+/*------------------------------*/
+.view-id-literary_influences table {
+  width: 80%;
+  margin: 20px auto; }
+
+.view-id-literary_influences td {
+  width: 50%; }
+
+.view-id-literary_influences .views-field-field-author-last-name {
+  text-align: right; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   .navbar .container {
     width: 940px; }
