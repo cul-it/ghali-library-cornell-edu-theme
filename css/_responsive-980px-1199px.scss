@@ -4,12 +4,16 @@
 
 
 @media (min-width: 980px) and (max-width: 1199px) {
+	body { font-size: 90%; }
 	.navbar {
 		.container { width: 940px; }
-		.nav { margin-top: 33px; }
-		.brand {
-			.site-title { font-size: 1.5em; }
+		.brand { font-size: 2em; }
+		.subtitle { margin-left: 75px; }
+		.nav {
+			li {
+				a { padding: 5px; }
+			}
 		}
 	}
-	#supersized { height: 950px !important ; }
 }
+

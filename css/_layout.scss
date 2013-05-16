@@ -2,36 +2,21 @@
 /*------------------------------*/
 
 .hero { 
-	// background: url("../images/background/1.jpg") no-repeat scroll top left;
-	// background-position: center;
-	h1 { 
-		margin: -40px 0 40px -60px;
-		padding: 20px 40px;
-		background: $red; }
+	background: $superDarkGreen;
+	.container { background: url("../images/ghali-bg.jpg") no-repeat top; }
 }
 
-.intro-text {
-	background: $brown;
-	opacity: .95;
+.intro-text { 
 	color: white;
-	margin: 100px 0;
-	padding: 0 80px 50px 80px;
-	font-size: 1.125em;
+	margin: 80px 40px 0 0;
+	font-size: 1.25em;
 	line-height: 1.5em;
 	.primary-button {
+		text-align: right;
 		margin-top: 20px;
-		text-align: center;
-		a { 
-			font-size: 110%;
-			font-weight: 300; }
-		a.browse { background: $red; }
-		a.browse:hover { 
-			background: #ba2d37;
-			text-decoration: none; }
-		a.learn-more { background: $darkTeal;}
-		a.learn-more:hover { 
-			background: $teal;
-			text-decoration: none; }
+		a { font-size: 90%; }
+		a.browse-works { background: $orange; }
+		a.browse-works:hover { background: $brightOrange; }
 	}
 }
 
@@ -45,72 +30,79 @@ header { background: white; }
 /* Main content on sub pages */
 /*------------------------------*/
 .main-content { 
-	background: white url("../images/background/2-crop.jpg") no-repeat top left;
-	background-position: center 0;
+	background: white;
 	.container { 
-		padding-top: 100px;
+		border-top: 5px solid $paleGreen;
+		padding-top: 60px;
 		padding-bottom: 60px; }
 }
 
 /* Sidebar on sub pages */
 /*------------------------------*/
-// .sidebar { margin-top: 40px; }
+.sidebar {
+	#block-block-5 { text-align: center; }
+}
 
 /* Footer */
 /*------------------------------*/
 footer {
-	color: $footerText;
+	color: $brightGreen;
 	.container { padding: 30px 0; }
-	ul.footer-nav {
+	ul.nav {
 		list-style: none;
 		margin: 0 0 1em;
 		li { 
 			display: inline-block;
 			font-size: .875em;
-			border-left: 1px solid $footerText;
-			padding: 0 5px 0 10px; }
+			border-left: 1px solid $brightGreen;
+			padding: 0 5px 0 10px;
+			a { color: #ccd0d0; }
+			a:hover { 
+				background: inherit;
+				color: white; }
+		}
 		li:first-child { 
 			border-left: none;
 			padding-left: 0; }
-		li.active { 
+		li.active-trail { 
 			color: white;
 			a { color: white; }
 			.divider { color: white; }
 		}
 	}
-	a { color: $footerLink; }
-	a:hover { color: white; }
 	p { font-size: .875em; }
-}
+	a { color: #ccd0d0; }
+	a:hover { 
+		background: inherit;
+		color: white; }
+	}
 
 /* Unpublished papers */
 /*------------------------------*/
+
 .paper {
-  margin: 0 0 1.5em; }
-
+	margin: 0 0 1.5em; }
 .paper-title {
-  font-size: 1.4em;
-  margin-bottom: .25em; }
-
+	font-size: 1.4em;
+	margin-bottom: .25em; }
 .paper-abstract {
-  font-size: 1em; }
-
+	font-size: 1em; }
 .paper-date {
-  color: #999999;
-  margin-bottom: .5em; }
+	color: $textColorLight;
+	margin-bottom: .5em; }
 
 /* Literary influences */
 /*------------------------------*/
-.view-id-literary_influences table {
-  width: 80%;
-  margin: 20px auto; }
-.view-id-literary_influences td {
-  width: 50%; }
-.view-id-literary_influences .views-field-field-author-last-name {
-  text-align: right; }
 
-// .influence-title {
-//   font-size: 1.25em; }
+.view-id-literary_influences {
+	table { 
+		width: 80%;
+		margin: 20px auto; }
+	td { width: 50%; }
+	.views-field-field-author-last-name { text-align: right; }
+}
 
-// .influence-author {
-//   font-size: 0.875em; }
+.influence-title { font-size: 1.25em; }
+.influence-author { font-size: 0.875em; }
+
+

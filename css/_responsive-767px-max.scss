@@ -13,10 +13,10 @@
 			width: auto;
 			padding: 0 10px; }
 		.btn-navbar {
-			background: $teal;
+			background: $brightGreen;
 			margin-top: 30px;
 		}
-		.btn-navbar:hover { background: $teal; }
+		.btn-navbar:hover { background: $brightGreen; }
 		.nav {
 			float: none;
 			padding: 5px 0;
@@ -29,17 +29,11 @@
 					color: white;
 					font-weight: normal; }
 			}
-			li.active {
-				a,
-				a:hover { 
-					background: $darkTeal;
-					color: white; }
-			}
 		}
 	}
 	.container { padding: 0 10px; }
 	.nav-collapse {
-		background: $teal;
+		background: $brightGreen;
 		margin-top: 10px;
 		.nav > li > a:hover { 
 			font-weight: normal;
@@ -51,15 +45,6 @@
 	}
 	footer {
 		.container { padding: 20px 10px;}
-	}
-	.sidebar-nav {
-		margin-bottom: 1em;
-		overflow: hidden;
-		li {
-			float: left;
-			margin-right: .25em;
-		}
-		a { padding: 10px; }
 	}
 }
 
