@@ -2189,5 +2189,6 @@ footer {
     text-align: left; } }
 .ie8 .navbar .brand {
   font-size: 1.75em;
-  text-align: right;
+  text-align: right; }
+.ie8 .navbar .subtitle {
   margin-left: 38px; }
