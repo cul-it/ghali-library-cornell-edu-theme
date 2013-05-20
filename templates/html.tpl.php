@@ -89,12 +89,12 @@
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   <?php print $scripts; ?>
-  <script src="/sites/all/themes/bootstrap_ghali/js/respond.min.js"></script>
   
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  <script src="/sites/all/themes/bootstrap_ghali/js/respond.min.js"></script>
 </body>
 </html>
