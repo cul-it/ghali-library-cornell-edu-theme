@@ -2187,3 +2187,6 @@ footer {
 
   .view-id-unpublished_papers .text-right {
     text-align: left; } }
+.ie8 .navbar .brand {
+  font-size: 1.5em;
+  text-align: right; }
