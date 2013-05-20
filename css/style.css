@@ -2186,7 +2186,10 @@ footer {
     width: 100%; }
 
   .view-id-unpublished_papers .text-right {
-    text-align: left; } }
+    text-align: left; }
+
+  .hero .container {
+    background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; } }
 .ie8 .navbar .brand {
   font-size: 1.75em;
   text-align: right; }
