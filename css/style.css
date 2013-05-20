@@ -2198,7 +2198,7 @@ footer {
     background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; }
 
   .sidebar img {
-    max-width: 290px; } }
+    max-width: 90%; } }
 .ie8 .navbar .brand {
   font-size: 1.75em;
   text-align: right; }
