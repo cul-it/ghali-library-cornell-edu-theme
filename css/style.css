@@ -2116,7 +2116,10 @@ footer {
   .intro-text .primary-button {
     text-align: center; }
     .intro-text .primary-button a {
-      line-height: 1.5em; } }
+      line-height: 1.5em; }
+
+  .hero .container {
+    background: url("../images/ghali-bg-sepia-768.jpg") no-repeat top; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
