@@ -2164,7 +2164,10 @@ footer {
       margin-bottom: 0; }
 
   footer .container {
-    padding: 20px 10px; } }
+    padding: 20px 10px; }
+
+  .hero .container {
+    background: url("../images/ghali-bg-sepia-768.jpg") no-repeat top; } }
 @media (max-width: 480px) {
   .navbar {
     padding-top: 0; }
