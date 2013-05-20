@@ -2195,7 +2195,10 @@ footer {
     text-align: left; }
 
   .hero .container {
-    background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; } }
+    background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; }
+
+  .sidebar img {
+    max-width: 290px; } }
 .ie8 .navbar .brand {
   font-size: 1.75em;
   text-align: right; }
