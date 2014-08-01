@@ -14,9 +14,7 @@ regions[footer_first]   = 'Footer primary'
 regions[footer_second]  = 'Footer secondary'
 
 ; Stylesheets
-stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/style.css
 
 ; Scripts
-scripts[] = js/respond.min.js
-scripts[] = js/bootstrap.min.js
+; scripts[] = js/respond.min.js
