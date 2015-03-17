@@ -2061,11 +2061,11 @@ footer {
   margin-bottom: .5em; }
 
 a.show.collapsed:after {
-  content: "+";
+  content: "-";
   width: 15px; }
 
 a.show:after {
-  content: "-";
+  content: "+";
   width: 15px; }
 
 /* Literary influences */
