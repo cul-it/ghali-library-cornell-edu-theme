@@ -2060,14 +2060,12 @@ footer {
   color: #666;
   margin-bottom: .5em; }
 
-a.show.collapsed:before {
+a.show.collapsed:after {
   content: "+";
-  display: block;
   width: 15px; }
 
-a.show:before {
+a.show:after {
   content: "-";
-  display: block;
   width: 15px; }
 
 /* Literary influences */
