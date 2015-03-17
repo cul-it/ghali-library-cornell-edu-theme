@@ -2055,6 +2055,8 @@ footer {
 
 .item-abstract p {
   font-size: 1em; }
+.item-abstract .collapse p {
+  margin-top: 1em; }
 
 .item-data {
   color: #666;

@@ -89,6 +89,11 @@ footer {
 	p {
 		font-size: 1em;
 	}
+	.collapse {
+		p {
+			margin-top: 1em;
+		}
+	}
 }
 .item-data {
 	color: $textColorMedium;
