@@ -2060,6 +2060,16 @@ footer {
   color: #666;
   margin-bottom: .5em; }
 
+a.show.collapsed:before {
+  content: "+";
+  display: block;
+  width: 15px; }
+
+a.show:before {
+  content: "-";
+  display: block;
+  width: 15px; }
+
 /* Literary influences */
 /*------------------------------*/
 @media (min-width: 980px) and (max-width: 1199px) {

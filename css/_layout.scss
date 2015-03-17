@@ -94,6 +94,19 @@ footer {
 	color: $textColorMedium;
 	margin-bottom: .5em; }
 
+a.show.collapsed:before
+{
+    content:'+' ;
+    display:block;
+    width:15px;
+}
+a.show:before
+{
+    content:'-' ;
+    display:block;
+    width:15px;
+}
+
 /* Literary influences */
 /*------------------------------*/
 
