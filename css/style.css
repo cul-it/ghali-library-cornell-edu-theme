@@ -1943,7 +1943,7 @@ h2 {
     margin-bottom: 5px; }
   .navbar .subtitle {
     color: #697777;
-    font-size: 1.25em;
+    font-size: 1.1em;
     font-style: italic;
     margin: 0 0 0 145px; }
   .navbar .nav {
@@ -2099,10 +2099,11 @@ a.show:after {
     width: 724px; }
   .navbar .brand {
     font-size: 1.625em;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding-left: 0; }
   .navbar .subtitle {
     font-size: 1em;
-    margin-left: 65px; }
+    margin-left: 0; }
   .navbar .nav li a {
     padding: 5px; }
   .navbar .btn-navbar {
