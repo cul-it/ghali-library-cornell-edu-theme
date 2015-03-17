@@ -2057,6 +2057,9 @@ footer {
   font-size: 1em; }
 .item-abstract .collapse p {
   margin-top: .25em; }
+.item-abstract .show {
+  cursor: pointer;
+  display: inline-block; }
 
 .item-data {
   color: #666;
@@ -2065,9 +2068,6 @@ footer {
     display: inline-block;
     margin-right: .25em;
     color: #999; }
-
-.show {
-  cursor: pointer; }
 
 a.show.collapsed:after {
   content: "+";

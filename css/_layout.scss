@@ -94,6 +94,10 @@ footer {
 			margin-top: .25em;
 		}
 	}
+	.show {
+		cursor: pointer;
+		display: inline-block;
+	}
 }
 .item-data {
 	color: $textColorMedium;
@@ -104,11 +108,6 @@ footer {
 		color: $textColorLight;
 	}
 }
-
-.show {
-	cursor: pointer;
-}
-
 a.show.collapsed:after
 {
     content:'+' ;
