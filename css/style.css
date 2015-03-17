@@ -2056,11 +2056,15 @@ footer {
 .item-abstract p {
   font-size: 1em; }
 .item-abstract .collapse p {
-  margin-top: 1em; }
+  margin-top: .25em; }
 
 .item-data {
   color: #666;
   margin-bottom: .5em; }
+  .item-data span {
+    display: inline-block;
+    margin-right: .25em;
+    color: #999; }
 
 .show {
   cursor: pointer; }

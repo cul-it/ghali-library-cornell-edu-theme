@@ -91,13 +91,19 @@ footer {
 	}
 	.collapse {
 		p {
-			margin-top: 1em;
+			margin-top: .25em;
 		}
 	}
 }
 .item-data {
 	color: $textColorMedium;
-	margin-bottom: .5em; }
+	margin-bottom: .5em;
+	span {
+		display: inline-block;
+		margin-right: .25em;
+		color: $textColorLight;
+	}
+}
 
 .show {
 	cursor: pointer;
