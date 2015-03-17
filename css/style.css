@@ -232,31 +232,26 @@ ul.icons li [class*=" icon-"] {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg); }
-
   100% {
     -ms-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
-
   100% {
     transform: rotate(359deg); } }
 @-moz-document url-prefix() {
@@ -1879,7 +1874,7 @@ body {
   font-size: 100%;
   font-family: "PT Sans";
   font-weight: 400;
-  color: #444444;
+  color: #444;
   background: url("../images/footer-bg.png");
   padding: 0; }
 
@@ -1928,7 +1923,7 @@ h2 {
   font-size: 75%; }
 
 .main-content p.caption {
-  color: #999999;
+  color: #999;
   font-size: 0.875em; }
 
 .top-link {
@@ -2051,20 +2046,18 @@ footer {
     background: inherit;
     color: white; }
 
-/* Unpublished papers */
-/*------------------------------*/
-.paper {
+.item {
   margin: 0 0 1.5em; }
 
-.paper-title {
+.item-title {
   font-size: 1.4em;
   margin-bottom: .25em; }
 
-.paper-abstract {
+.item-abstract p {
   font-size: 1em; }
 
-.paper-date {
-  color: #999999;
+.item-date {
+  color: #666;
   margin-bottom: .5em; }
 
 /* Literary influences */
@@ -2202,3 +2195,5 @@ footer {
   text-align: right; }
 .ie8 .navbar .subtitle {
   margin-left: 38px; }
+
+/*# sourceMappingURL=style.css.map */

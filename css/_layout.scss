@@ -77,18 +77,21 @@ footer {
 		color: white; }
 	}
 
-/* Unpublished papers */
-/*------------------------------*/
+// Unpublished papers 
+//------------------------------
 
-.paper {
+.item {
 	margin: 0 0 1.5em; }
-.paper-title {
+.item-title {
 	font-size: 1.4em;
 	margin-bottom: .25em; }
-.paper-abstract {
-	font-size: 1em; }
-.paper-date {
-	color: $textColorLight;
+.item-abstract {
+	p {
+		font-size: 1em;
+	}
+}
+.item-date {
+	color: $textColorMedium;
 	margin-bottom: .5em; }
 
 /* Literary influences */
