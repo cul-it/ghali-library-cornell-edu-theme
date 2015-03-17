@@ -96,12 +96,12 @@ footer {
 
 a.show.collapsed:after
 {
-    content:'-' ;
+    content:'+' ;
     width:15px;
 }
 a.show:after
 {
-    content:'+' ;
+    content:'-' ;
     width:15px;
 }
 
