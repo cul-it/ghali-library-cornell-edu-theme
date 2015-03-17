@@ -2060,6 +2060,9 @@ footer {
   color: #666;
   margin-bottom: .5em; }
 
+.show {
+  cursor: pointer; }
+
 a.show.collapsed:after {
   content: "+";
   width: 15px; }
