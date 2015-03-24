@@ -1932,8 +1932,8 @@ h2 {
   font-size: 0.875em; }
 
 .top-link {
-  text-align: right;
-  display: block; }
+  float: right;
+  display: inline-block; }
 
 .navbar {
   padding: 30px 0;
