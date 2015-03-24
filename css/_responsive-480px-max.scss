@@ -23,8 +23,12 @@
 	.view-id-literary_influences {
 		table { width: 100%; }
 	}
-	.view-id-unpublished_papers {
-		.text-right { text-align: left; }
+	.view-id-unpublished_papers,
+	.view-id-letters {
+		.text-right { 
+			text-align: left;
+			margin-bottom: .75em;
+		}
 	}
 	.hero { 
 		.container { background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; }
