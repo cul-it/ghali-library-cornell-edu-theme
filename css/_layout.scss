@@ -56,13 +56,13 @@ footer {
 			font-size: .875em;
 			border-left: 1px solid $brightGreen;
 			padding: 0 5px 0 10px;
-			a { 
-				color: #ccd0d0;
-				border-bottom: 1px dotted $textColorLight;
-			}
-			a:hover { 
-				background: inherit;
-				color: white; }
+			// a { 
+			// 	color: #ccd0d0;
+			// 	border-bottom: 1px dotted $textColorLight;
+			// }
+			// a:hover { 
+			// 	background: inherit;
+			// 	color: white; }
 		}
 		li:first-child { 
 			border-left: none;
@@ -74,7 +74,10 @@ footer {
 		}
 	}
 	p { font-size: .875em; }
-	a { color: #ccd0d0; }
+	a { 
+		color: #ccd0d0;
+		border-bottom: 1px dotted $textColorLight;
+	}
 	a:hover { 
 		background: inherit;
 		color: white; }
