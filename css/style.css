@@ -2029,6 +2029,9 @@ footer {
       font-size: .875em;
       border-left: 1px solid #25898c;
       padding: 0 5px 0 10px; }
+      footer ul.nav li a:hover {
+        background: inherit;
+        color: white; }
     footer ul.nav li:first-child {
       border-left: none;
       padding-left: 0; }
