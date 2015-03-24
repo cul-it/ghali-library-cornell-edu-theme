@@ -1887,6 +1887,9 @@ a:hover {
   text-decoration: none;
   color: #082324; }
 
+.main-content a {
+  border-bottom: 1px dotted #999; }
+
 /* Typography */
 /*------------------------------*/
 h2 {

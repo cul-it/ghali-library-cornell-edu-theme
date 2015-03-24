@@ -16,6 +16,12 @@ a:hover { text-decoration: none;
 }
 a:active { }
 
+.main-content {
+	a {
+		border-bottom: 1px dotted $textColorLight;
+	}
+}
+
 
 /* Typography */
 /*------------------------------*/
