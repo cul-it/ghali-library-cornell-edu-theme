@@ -1890,6 +1890,9 @@ a:hover {
 .main-content a {
   border-bottom: 1px dotted #999; }
 
+.pdf-link {
+  border: 0; }
+
 /* Typography */
 /*------------------------------*/
 h2 {
