@@ -1889,8 +1889,7 @@ a:hover {
 
 .main-content a {
   border-bottom: 1px dotted #999; }
-
-.pdf-link {
+.main-content .pdf-link {
   border: 0; }
 
 /* Typography */

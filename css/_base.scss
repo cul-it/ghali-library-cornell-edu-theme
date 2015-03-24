@@ -21,10 +21,10 @@ a:active { }
 	a {
 		border-bottom: 1px dotted $textColorLight;
 	}
-}
-// turn off borders for some links
-.pdf-link {
-	border: 0;
+	// turn off borders for some links
+	.pdf-link {
+		border: 0;
+	}
 }
 
 
