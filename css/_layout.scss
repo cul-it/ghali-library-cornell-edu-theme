@@ -142,4 +142,28 @@ a.show:after
 // .influence-title { font-size: 1.25em; }
 // .influence-author { font-size: 0.875em; }
 
+// Unpublished papers
+// ---------------------
+#block-views-unpublished-papers-block {
+	.text-right {
+		text-align: left;
+	}
+}
 
+// MEDIA QUERIES
+// -------------------------
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	#block-views-unpublished-papers-block {
+		.text-right {
+			text-align: right;
+		}
+	}
+}
+
+// Medium devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+// }
+// Large devices (desktops, 1200px and up)
+// @media (min-width: 1200px) {
+// }
