@@ -2105,11 +2105,11 @@ a.show:after {
 
 /* Literary influences */
 /*------------------------------*/
-#block-views-unpublished-papers-block .text-right {
+#block-views-unpublished-papers-block .text-right, .letters .text-right {
   text-align: left; }
 
 @media (min-width: 768px) {
-  #block-views-unpublished-papers-block .text-right {
+  #block-views-unpublished-papers-block .text-right, .letters .text-right {
     text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */
