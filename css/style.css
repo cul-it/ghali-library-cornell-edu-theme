@@ -1865,13 +1865,12 @@ ul.icons {
   .search-links a {
     color: white;
     text-decoration: none;
-    font-size: 0.6875em;
+    font-size: 11px;
     padding: 5px 15px; }
   .search-links a:hover {
     background: #990f26; }
 
 body {
-  font-size: 100%;
   font-family: "PT Sans";
   font-weight: 400;
   color: #333;
@@ -1894,6 +1893,9 @@ a:hover {
 
 /* Typography */
 /*------------------------------*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "PT Sans"; }
+
 h2 {
   color: white;
   background: #e14f3c;
@@ -1936,33 +1938,32 @@ h2 {
   display: inline-block; }
 
 .navbar {
-  padding: 30px 0;
+  padding: 20px 0;
   margin-bottom: 0; }
   .navbar .container {
     width: 1170px; }
   .navbar .brand {
     float: none;
-    font-size: 2.25em;
+    font-size: 24px;
     color: #e14f3c;
     font-weight: bold;
     margin-bottom: 5px; }
   .navbar .subtitle {
     color: #697777;
-    font-size: 1.1em;
-    font-style: italic;
-    margin: 0 0 0 145px; }
+    font-size: 18px;
+    font-style: italic; }
   .navbar .nav {
-    float: right;
     margin-top: 3px; }
-    .navbar .nav li a {
-      text-shadow: 0 0 0;
-      color: #1a5e60;
-      font-size: 1em;
-      padding: 5px 10px;
-      border-left: 1px solid #e7eff0; }
-    .navbar .nav li a:hover {
-      background: #fadcd0;
-      border-color: #fadcd0; }
+    .navbar .nav li {
+      margin: 0 0 2px 2px; }
+      .navbar .nav li a {
+        text-shadow: 0 0 0;
+        color: #1a5e60;
+        font-size: 16px;
+        padding: 5px 10px; }
+      .navbar .nav li a:hover {
+        background: #fadcd0;
+        border-color: #fadcd0; }
     .navbar .nav li:first-child a {
       border: none; }
     .navbar .nav li.active-trail a,
@@ -1974,6 +1975,24 @@ h2 {
       box-shadow: none;
       border-color: #e14f3c; }
 
+.navbar-toggle {
+  background: #e14f3c;
+  margin: 0 0 0 10px; }
+  .navbar-toggle .icon-bar {
+    background: white; }
+
+@media (min-width: 768px) {
+  .navbar .nav {
+    float: right; }
+    .navbar .nav li {
+      float: left; }
+  .navbar .brand {
+    font-size: 22px; }
+  .navbar .subtitle {
+    margin: 0 0 0 15px; } }
+@media (min-width: 1200px) {
+  .navbar .brand {
+    font-size: 36px; } }
 /* Hero */
 /*------------------------------*/
 .hero {
@@ -2086,141 +2105,5 @@ a.show:after {
 
 /* Literary influences */
 /*------------------------------*/
-@media (min-width: 980px) and (max-width: 1199px) {
-  body {
-    font-size: 90%; }
-
-  .navbar .container {
-    width: 940px; }
-  .navbar .brand {
-    font-size: 2em; }
-  .navbar .subtitle {
-    margin-left: 75px; }
-  .navbar .nav li a {
-    padding: 5px; } }
-@media (min-width: 768px) and (max-width: 979px) {
-  body {
-    font-size: 90%; }
-
-  .navbar .container {
-    width: 724px; }
-  .navbar .brand {
-    font-size: 1.625em;
-    margin-bottom: 0;
-    padding-left: 0; }
-  .navbar .subtitle {
-    font-size: 1em;
-    margin-left: 0; }
-  .navbar .nav li a {
-    padding: 5px; }
-  .navbar .btn-navbar {
-    display: none; }
-
-  .nav-collapse,
-  .nav-collapse.collapse {
-    overflow: visible; }
-
-  .nav-collapse .nav > li {
-    float: left;
-    font-size: 90%; }
-  .nav-collapse .nav > li > a {
-    font-weight: normal;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0; }
-
-  .intro-text .primary-button {
-    text-align: center; }
-    .intro-text .primary-button a {
-      line-height: 1.5em; }
-
-  .hero .container {
-    background: url("../images/ghali-bg-sepia-768.jpg") no-repeat top; } }
-@media (max-width: 767px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 90%; }
-
-  .navbar {
-    padding-bottom: 15px; }
-    .navbar .container {
-      width: auto;
-      padding: 0 10px; }
-    .navbar .btn-navbar {
-      background: #25898c;
-      margin-top: 30px; }
-    .navbar .btn-navbar:hover {
-      background: #25898c; }
-    .navbar .nav {
-      float: none;
-      padding: 5px 0; }
-      .navbar .nav li a,
-      .navbar .nav li a:hover {
-        background-image: none;
-        border: 0; }
-      .navbar .nav li a {
-        color: white;
-        font-weight: normal; }
-
-  .container {
-    padding: 0 10px; }
-
-  .nav-collapse {
-    background: #25898c;
-    margin-top: 10px; }
-    .nav-collapse .nav > li > a:hover {
-      font-weight: normal;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      border-radius: 0; }
-    .nav-collapse .nav {
-      margin: 0; }
-    .nav-collapse .nav > li > a {
-      margin-bottom: 0; }
-
-  footer .container {
-    padding: 20px 10px; }
-
-  .hero .container {
-    background: url("../images/ghali-bg-sepia-768.jpg") no-repeat top; } }
-@media (max-width: 480px) {
-  .navbar {
-    padding-top: 0; }
-    .navbar .brand {
-      margin-bottom: 0;
-      clear: both;
-      line-height: 1em; }
-    .navbar .subtitle {
-      line-height: 1.2em;
-      margin-left: 0; }
-    .navbar .btn-navbar {
-      margin-top: 10px;
-      display: inline-block; }
-
-  .image-copyright {
-    margin-top: 30px; }
-
-  footer .text-right {
-    text-align: left; }
-
-  .view-id-literary_influences table {
-    width: 100%; }
-
-  .view-id-unpublished_papers .text-right,
-  .view-id-letters .text-right {
-    text-align: left;
-    margin-bottom: .75em; }
-
-  .hero .container {
-    background: url("../images/ghali-bg-sepia-480.jpg") no-repeat top; }
-
-  .sidebar img {
-    max-width: 90%; } }
-.ie8 .navbar .brand {
-  font-size: 1.75em;
-  text-align: right; }
-.ie8 .navbar .subtitle {
-  margin-left: 38px; }
 
 /*# sourceMappingURL=style.css.map */

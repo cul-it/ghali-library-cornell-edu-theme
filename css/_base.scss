@@ -1,5 +1,4 @@
 body {
-	font-size: 100%;
 	font-family: $baseFontFamily;
 	font-weight: 400;
 	color: $textColorDark;
@@ -30,6 +29,10 @@ a:active { }
 
 /* Typography */
 /*------------------------------*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $baseFontFamily;
+}
 
 h2 {
 	color: white;
