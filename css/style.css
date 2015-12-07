@@ -2046,8 +2046,9 @@ footer {
     footer ul.nav li {
       display: inline-block;
       font-size: .875em;
-      border-left: 1px solid #25898c;
-      padding: 0 5px 0 10px; }
+      border-left: 1px solid #25898c; }
+      footer ul.nav li a {
+        padding: 0 5px 0 10px; }
       footer ul.nav li a:hover {
         background: inherit;
         color: white; }
